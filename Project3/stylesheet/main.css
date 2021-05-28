@@ -22,8 +22,9 @@ header section {
 
 header section .logo {
     color: #fff;
-    border: 2px solid #ffffff;
-    background: #ffd900;
+    border: 2px solid #fff;
+    background: #000;
+    padding: 6px;
 }
 
 ul {
@@ -69,4 +70,41 @@ ul a:hover {
     font-size: 2.8rem;
 }
 
-.
+.btns-content {
+    margin-top: 28px;
+}
+
+.btns-content .btn {
+    background:  none;
+    color: #fff;
+    padding: 10px 16px;
+    border: 2px solid #fff;
+    margin: 10px;
+    transition: 0.6s ease;
+}
+
+.btns-content .btn:hover {
+    background: #fff;
+    color: #000;
+}
+
+@media (max-width: 468px) {
+    ul li{
+        padding: 10px;
+    }
+
+    ul a {
+        padding: 5px 10px;
+    }
+
+    .title-content h1 {
+        font-size: 2rem;
+        line-height: 48px;
+    }
+}
+
+@media (min-width: 768px) {
+    .title-content h1 {
+        font-size: 1.8rem;
+    }
+}
